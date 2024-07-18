@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="serivce.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <nav class="navbar">
+        <div class="brand-title"><h2 class="brand">GOVERNMENT <SPan>PROTEL</SPan></h2></div>
+        <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+            ☰
+        </a>
+        <div class="navbar-links" id="navbar-links">
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="serivce.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            var x = document.getElementById("navbar-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <div class="container"> 
+     
+    <div>
+        <img src="/card images/aadhaar.png" alt="">
+        <h1>AADHAAR CARD</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <img src="/card images/pancard.jpeg" alt="">
+        <h1>PANCARD</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <img src="/card images/voter id.jpeg" alt="">
+        <h1>VOTER ID</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <img src="/card images/smart card.jpeg" alt="">
+        <h1>SMART CARD</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <img src="/card images/driver license.jpeg" alt="">
+        <h1>DRIVER</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <img src="/card images/family card.jpeg" alt="">
+        <h1>FAMILY CARD</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+     
+</div>
+</body>
+
+</html>
